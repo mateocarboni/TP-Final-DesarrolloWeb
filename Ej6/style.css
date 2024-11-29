@@ -1,0 +1,109 @@
+h1, h2 {
+    color: blue;  
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    color: lightsalmon;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+header p {
+    color: orange;
+}
+
+header p span {
+    color: brown;
+    justify-content: left;
+
+}
+
+main section article p {
+    color: lightgreen;
+}
+
+main section article p span, strong {
+    color: #98b44f;
+}
+
+
+main section article .web {
+    color: #c48785;
+}
+
+main section article .span-web  {
+    color: #6a2d2a;
+}
+
+
+main section .curso p {
+    color: #c3b4db;
+}
+
+main section .curso span{
+    color: #4d3e66;
+}
+
+main section .formacion p {
+    color: #da50b9;
+}
+
+main section .formacion span {
+    color: #ad3a89
+}
+
+@media (min-width: 960px){
+    body{
+        background-color: grey;
+    }
+}
+
+@media (max-width: 600px){
+    body{
+        font-size: 20px;
+    }
+}
+
+@media (orientation: portrait){
+    header p{
+        display: none;
+    }
+}
+
+@media (orientation: landscape){
+    header {
+        display: block;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px){
+    body{
+        margin: 100px;
+    }
+}
+
+@media (max-width: 576px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media (max-width: 480px){
+    img{
+        width:30%;
+    }
+}
